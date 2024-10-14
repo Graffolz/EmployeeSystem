@@ -1,0 +1,163 @@
+2024-10-14T02:46:01.411+03:00  INFO 11456 --- [main] EmployeeManagementSystemApplicationTests : Starting EmployeeManagementSystemApplicationTests using Java 18.0.2.1 with PID 11456 (started by КЦ in C:\Users\КЦ\IdeaProjects\employeemanagementsystem)
+2024-10-14T02:46:01.415+03:00  INFO 11456 --- [main] EmployeeManagementSystemApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-10-14T02:46:01.936+03:00  INFO 11456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-14T02:46:02.021+03:00  INFO 11456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2024-10-14T02:46:02.474+03:00  INFO 11456 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-14T02:46:02.569+03:00  INFO 11456 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-14T02:46:02.623+03:00  INFO 11456 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-14T02:46:03.339+03:00  INFO 11456 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-14T02:46:03.422+03:00  INFO 11456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-14T02:46:04.060+03:00  INFO 11456 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78c74647
+2024-10-14T02:46:04.065+03:00  INFO 11456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-14T02:46:04.170+03:00  WARN 11456 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-14T02:46:06.340+03:00  INFO 11456 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-14T02:46:06.415+03:00  INFO 11456 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14T02:46:06.875+03:00  INFO 11456 --- [main] EmployeeManagementSystemApplicationTests : Started EmployeeManagementSystemApplicationTests in 5.914 seconds (process running for 8.045)
+2024-10-14T02:46:07.727+03:00  INFO 11456 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудника по ID: 1
+2024-10-14T02:46:07.812+03:00  INFO 11456 --- [main] c.e.e.service.EmployeeService            : Группировка сотрудников по имени
+2024-10-14T02:46:07.835+03:00  INFO 11456 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудников между датами: 1970-01-01 и 1975-12-31
+2024-10-14T02:46:07.878+03:00  INFO 11456 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудника по ID: 999
+2024-10-14T02:46:07.915+03:00  INFO 11456 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудников между датами: 1985-01-01 и 1995-01-01
+2024-10-14T02:46:07.965+03:00  INFO 11456 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14T02:46:07.973+03:00  INFO 11456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-14T02:46:07.982+03:00  INFO 11456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-14T02:48:53.459+03:00  INFO 18504 --- [main] EmployeeManagementSystemApplicationTests : Starting EmployeeManagementSystemApplicationTests using Java 18.0.2.1 with PID 18504 (started by КЦ in C:\Users\КЦ\IdeaProjects\employeemanagementsystem)
+2024-10-14T02:48:53.461+03:00  INFO 18504 --- [main] EmployeeManagementSystemApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-10-14T02:48:53.950+03:00  INFO 18504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-14T02:48:54.016+03:00  INFO 18504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2024-10-14T02:48:54.620+03:00  INFO 18504 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-14T02:48:54.761+03:00  INFO 18504 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-14T02:48:54.840+03:00  INFO 18504 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-14T02:48:55.737+03:00  INFO 18504 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-14T02:48:55.811+03:00  INFO 18504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-14T02:48:56.331+03:00  INFO 18504 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ceb6c45
+2024-10-14T02:48:56.336+03:00  INFO 18504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-14T02:48:56.424+03:00  WARN 18504 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-14T02:48:57.612+03:00  INFO 18504 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-14T02:48:57.668+03:00  INFO 18504 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14T02:48:58.061+03:00  INFO 18504 --- [main] EmployeeManagementSystemApplicationTests : Started EmployeeManagementSystemApplicationTests in 4.999 seconds (process running for 6.119)
+2024-10-14T02:48:58.868+03:00  INFO 18504 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудника по ID: 1
+2024-10-14T02:48:58.921+03:00  INFO 18504 --- [main] c.e.e.service.EmployeeService            : Группировка сотрудников по имени
+2024-10-14T02:48:58.945+03:00  INFO 18504 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудников между датами: 1970-01-01 и 1975-12-31
+2024-10-14T02:48:58.994+03:00  INFO 18504 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудника по ID: 999
+2024-10-14T02:48:59.033+03:00  INFO 18504 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудников между датами: 1980-01-01 и 2003-12-31
+2024-10-14T02:48:59.091+03:00  INFO 18504 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14T02:48:59.094+03:00  INFO 18504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-14T02:48:59.101+03:00  INFO 18504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-14T02:51:13.143+03:00  INFO 17500 --- [main] EmployeeManagementSystemApplicationTests : Starting EmployeeManagementSystemApplicationTests using Java 18.0.2.1 with PID 17500 (started by КЦ in C:\Users\КЦ\IdeaProjects\employeemanagementsystem)
+2024-10-14T02:51:13.147+03:00  INFO 17500 --- [main] EmployeeManagementSystemApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-10-14T02:51:13.642+03:00  INFO 17500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-14T02:51:13.716+03:00  INFO 17500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2024-10-14T02:51:14.454+03:00  INFO 17500 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-14T02:51:14.635+03:00  INFO 17500 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-14T02:51:14.736+03:00  INFO 17500 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-14T02:51:15.751+03:00  INFO 17500 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-14T02:51:15.830+03:00  INFO 17500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-14T02:51:16.395+03:00  INFO 17500 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78c74647
+2024-10-14T02:51:16.400+03:00  INFO 17500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-14T02:51:16.514+03:00  WARN 17500 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-14T02:51:18.116+03:00  INFO 17500 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-14T02:51:18.188+03:00  INFO 17500 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14T02:51:18.632+03:00  INFO 17500 --- [main] EmployeeManagementSystemApplicationTests : Started EmployeeManagementSystemApplicationTests in 5.948 seconds (process running for 7.136)
+2024-10-14T02:51:19.479+03:00  INFO 17500 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудника по ID: 1
+2024-10-14T02:51:19.552+03:00  INFO 17500 --- [main] c.e.e.service.EmployeeService            : Группировка сотрудников по имени
+2024-10-14T02:51:19.582+03:00  INFO 17500 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудников между датами: 1970-01-01 и 1975-12-31
+2024-10-14T02:51:19.702+03:00  INFO 17500 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудника по ID: 999
+2024-10-14T02:51:19.773+03:00  INFO 17500 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудников между датами: 1980-01-01 и 2003-12-31
+2024-10-14T02:51:19.892+03:00  INFO 17500 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14T02:51:19.900+03:00  INFO 17500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-14T02:51:19.916+03:00  INFO 17500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-14T02:54:39.711+03:00  INFO 15332 --- [main] EmployeeManagementSystemApplicationTests : Starting EmployeeManagementSystemApplicationTests using Java 18.0.2.1 with PID 15332 (started by КЦ in C:\Users\КЦ\IdeaProjects\employeemanagementsystem)
+2024-10-14T02:54:39.715+03:00  INFO 15332 --- [main] EmployeeManagementSystemApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-10-14T02:54:40.169+03:00  INFO 15332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-14T02:54:40.248+03:00  INFO 15332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interface.
+2024-10-14T02:54:40.666+03:00  INFO 15332 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-14T02:54:40.740+03:00  INFO 15332 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-14T02:54:40.792+03:00  INFO 15332 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-14T02:54:41.615+03:00  INFO 15332 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-14T02:54:41.687+03:00  INFO 15332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-14T02:54:42.230+03:00  INFO 15332 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78c74647
+2024-10-14T02:54:42.236+03:00  INFO 15332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-14T02:54:42.325+03:00  WARN 15332 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-14T02:54:43.776+03:00  INFO 15332 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-14T02:54:43.831+03:00  INFO 15332 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14T02:54:44.230+03:00  INFO 15332 --- [main] EmployeeManagementSystemApplicationTests : Started EmployeeManagementSystemApplicationTests in 4.936 seconds (process running for 6.023)
+2024-10-14T02:54:45.022+03:00  INFO 15332 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудника по ID: 1
+2024-10-14T02:54:45.078+03:00  INFO 15332 --- [main] c.e.e.service.EmployeeService            : Группировка сотрудников по имени
+2024-10-14T02:54:45.104+03:00  INFO 15332 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудников между датами: 1970-01-01 и 1975-12-31
+2024-10-14T02:54:45.149+03:00  INFO 15332 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудника по ID: 999
+2024-10-14T02:54:45.202+03:00  INFO 15332 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудников между датами: 1980-01-01 и 2003-12-31
+2024-10-14T02:54:45.250+03:00  INFO 15332 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14T02:54:45.253+03:00  INFO 15332 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-14T02:54:45.262+03:00  INFO 15332 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-14T03:00:17.143+03:00  INFO 17600 --- [main] EmployeeManagementSystemApplicationTests : Starting EmployeeManagementSystemApplicationTests using Java 18.0.2.1 with PID 17600 (started by КЦ in C:\Users\КЦ\IdeaProjects\employeemanagementsystem)
+2024-10-14T03:00:17.146+03:00  INFO 17600 --- [main] EmployeeManagementSystemApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-10-14T03:00:18.103+03:00  INFO 17600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-14T03:00:18.249+03:00  INFO 17600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interface.
+2024-10-14T03:00:19.078+03:00  INFO 17600 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-14T03:00:19.230+03:00  INFO 17600 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-14T03:00:19.323+03:00  INFO 17600 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-14T03:00:19.856+03:00  INFO 17600 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-14T03:00:19.893+03:00  INFO 17600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-14T03:00:20.161+03:00  INFO 17600 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78c74647
+2024-10-14T03:00:20.164+03:00  INFO 17600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-14T03:00:20.206+03:00  WARN 17600 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-14T03:00:21.269+03:00  INFO 17600 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-14T03:00:21.328+03:00  INFO 17600 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14T03:00:21.795+03:00  INFO 17600 --- [main] EmployeeManagementSystemApplicationTests : Started EmployeeManagementSystemApplicationTests in 5.071 seconds (process running for 6.183)
+2024-10-14T03:00:23.365+03:00  INFO 17600 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудника по ID: 79
+2024-10-14T03:00:23.460+03:00  INFO 17600 --- [main] c.e.e.service.EmployeeService            : Группировка сотрудников по имени
+2024-10-14T03:00:23.510+03:00  INFO 17600 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудников между датами: 1970-01-01 и 1975-12-31
+2024-10-14T03:00:23.598+03:00  INFO 17600 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудника по ID: 999
+2024-10-14T03:00:23.690+03:00  INFO 17600 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудников между датами: 1980-01-01 и 2003-12-31
+2024-10-14T03:00:23.806+03:00  INFO 17600 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14T03:00:23.810+03:00  INFO 17600 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-14T03:00:23.834+03:00  INFO 17600 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-14T03:00:36.309+03:00  INFO 5720 --- [main] EmployeeManagementSystemApplicationTests : Starting EmployeeManagementSystemApplicationTests using Java 18.0.2.1 with PID 5720 (started by КЦ in C:\Users\КЦ\IdeaProjects\employeemanagementsystem)
+2024-10-14T03:00:36.311+03:00  INFO 5720 --- [main] EmployeeManagementSystemApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-10-14T03:00:37.148+03:00  INFO 5720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-14T03:00:37.296+03:00  INFO 5720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118 ms. Found 1 JPA repository interface.
+2024-10-14T03:00:38.135+03:00  INFO 5720 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-14T03:00:38.272+03:00  INFO 5720 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-14T03:00:38.358+03:00  INFO 5720 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-14T03:00:39.235+03:00  INFO 5720 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-14T03:00:39.315+03:00  INFO 5720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-14T03:00:39.849+03:00  INFO 5720 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e6d76ba
+2024-10-14T03:00:39.852+03:00  INFO 5720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-14T03:00:39.909+03:00  WARN 5720 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-14T03:00:41.100+03:00  INFO 5720 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-14T03:00:41.157+03:00  INFO 5720 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14T03:00:41.618+03:00  INFO 5720 --- [main] EmployeeManagementSystemApplicationTests : Started EmployeeManagementSystemApplicationTests in 5.774 seconds (process running for 7.178)
+2024-10-14T03:00:42.717+03:00  INFO 5720 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудника по ID: 97
+2024-10-14T03:00:42.805+03:00  INFO 5720 --- [main] c.e.e.service.EmployeeService            : Группировка сотрудников по имени
+2024-10-14T03:00:42.855+03:00  INFO 5720 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудников между датами: 1970-01-01 и 1975-12-31
+2024-10-14T03:00:42.947+03:00  INFO 5720 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудника по ID: 999
+2024-10-14T03:00:43.018+03:00  INFO 5720 --- [main] c.e.e.service.EmployeeService            : Поиск сотрудников между датами: 1980-01-01 и 2003-12-31
+2024-10-14T03:00:43.055+03:00  INFO 5720 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14T03:00:43.060+03:00  INFO 5720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-14T03:00:43.080+03:00  INFO 5720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-14T03:01:31.732+03:00  INFO 8756 --- [main] .e.e.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 18.0.2.1 with PID 8756 (C:\Users\КЦ\IdeaProjects\employeemanagementsystem\target\classes started by КЦ in C:\Users\КЦ\IdeaProjects\employeemanagementsystem)
+2024-10-14T03:01:31.735+03:00  INFO 8756 --- [main] .e.e.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-10-14T03:01:33.180+03:00  INFO 8756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-14T03:01:33.340+03:00  INFO 8756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132 ms. Found 1 JPA repository interface.
+2024-10-14T03:01:34.922+03:00  INFO 8756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-14T03:01:34.966+03:00  INFO 8756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-14T03:01:34.967+03:00  INFO 8756 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-14T03:01:35.157+03:00  INFO 8756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-14T03:01:35.158+03:00  INFO 8756 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3351 ms
+2024-10-14T03:01:35.496+03:00  INFO 8756 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-14T03:01:35.573+03:00  INFO 8756 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-14T03:01:35.617+03:00  INFO 8756 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-14T03:01:35.980+03:00  INFO 8756 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-14T03:01:36.020+03:00  INFO 8756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-14T03:01:36.303+03:00  INFO 8756 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c91fe86
+2024-10-14T03:01:36.305+03:00  INFO 8756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-14T03:01:36.344+03:00  WARN 8756 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-14T03:01:37.344+03:00  INFO 8756 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-14T03:01:37.399+03:00  INFO 8756 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14T03:01:37.888+03:00  WARN 8756 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-14T03:01:38.916+03:00  INFO 8756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-14T03:01:38.937+03:00  INFO 8756 --- [main] .e.e.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 7.804 seconds (process running for 8.273)
+2024-10-14T03:02:03.940+03:00  INFO 8756 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14T03:02:03.942+03:00  INFO 8756 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-14T03:02:03.949+03:00  INFO 8756 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
